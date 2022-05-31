@@ -80,9 +80,6 @@
     <Image Include="Assets\images\sign-out.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\pp\dehk.jpg">
-      <Filter>Assets</Filter>
-    </Image>
     <Image Include="Assets\pp\Default.png">
       <Filter>Assets</Filter>
     </Image>
@@ -141,9 +138,6 @@
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\story\Story 3.jpg">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="Assets\story\dehk.jpg">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

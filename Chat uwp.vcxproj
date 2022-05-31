@@ -358,7 +358,6 @@
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\pp\bely.jpg" />
     <Image Include="Assets\pp\Default.png" />
-    <Image Include="Assets\pp\dehk.jpg" />
     <Image Include="Assets\pp\group_def.png" />
     <Image Include="Assets\pp\IMG_8040.jpg" />
     <Image Include="Assets\pp\istockphoto-1276165275-170667a.jpg" />
@@ -373,7 +372,6 @@
     <Image Include="Assets\Square44x44Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Image Include="Assets\StoreLogo.png" />
-    <Image Include="Assets\story\dehk.jpg" />
     <Image Include="Assets\story\IMG_8040.jpg" />
     <Image Include="Assets\story\Story 1.jpg" />
     <Image Include="Assets\story\Story 2.jpg" />
