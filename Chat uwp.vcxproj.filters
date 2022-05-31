@@ -80,6 +80,9 @@
     <Image Include="Assets\images\sign-out.png">
       <Filter>Assets</Filter>
     </Image>
+    <Image Include="Assets\pp\dehk.jpg">
+      <Filter>Assets</Filter>
+    </Image>
     <Image Include="Assets\pp\Default.png">
       <Filter>Assets</Filter>
     </Image>
@@ -131,10 +134,16 @@
     <Image Include="Assets\pp\Screenshot 2022-05-29 194516.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\story\Story 1.jpeg">
+    <Image Include="Assets\story\Story 1.jpg">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\story\Story 2.jpeg">
+    <Image Include="Assets\story\Story 2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\Story 3.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\dehk.jpg">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

@@ -54,10 +54,10 @@ Chat_uwp::Entry::~Entry()
 void Chat_uwp::Entry::status_btn_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	chat->destruct();
+	story.checkpublishtime(User::LogedInUser.id);
 	status = ref new StatusUC();
 	Content_grid->Children->Clear();
 	Content_grid->Children->Append(status);
-	story.checkpublishtime(User::LogedInUser.id);
 }
 
 

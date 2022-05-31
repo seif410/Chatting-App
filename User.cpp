@@ -398,7 +398,7 @@ bool User::checknumByid(int id, String^ Phone)
 	int counter = 0;
 	string line;
 	string store;
-	bool k = true;
+	bool k = false;
 	string phone = Convertstring(Phone);
 	vector<string>x;
 	string Name = GetFileName("Contacts.txt");
@@ -434,15 +434,11 @@ bool User::checknumByid(int id, String^ Phone)
 			ret.push_back(x[i]);
 		}
 	}
-	for (int i = 0; i < x.size(); i++)
+	for (int i = 0; i < ret.size(); i++)
 	{
 		if (ret[i] == phone) {
 			k = true;
 			break;
-		}
-		else
-		{
-			k = false;
 		}
 	}
 	return k;

@@ -168,7 +168,7 @@ vector<Contacts*> Story::GetContacts(int id) {
 			if (stoi(v[i]) == ids2[j]) {
 				for (int k = 0; k < rturn.size(); k++)
 				{
-					if (usr.GetPhByid(ids2[j]) == rturn[k]->phone) {
+					if (rturn[k]->phone == usr.GetPhByid(ids2[j])) {
 						counter++;
 					}
 				}

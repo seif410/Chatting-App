@@ -13,7 +13,7 @@
 static class func {
 
 public:
-
+	
 	static std::string toStd(Platform::String^ ms)
 	{
 		std::wstring w_str(ms->Begin());
